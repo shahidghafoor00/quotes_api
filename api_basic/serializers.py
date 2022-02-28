@@ -6,4 +6,3 @@ class ArticleSerializers(serializers.ModelSerializer):
     class Meta:
         model = Quote
         fields = ['id', 'author', 'quote']
-

@@ -7,7 +7,7 @@ from .serializers import ArticleSerializers
 
 # Create your views here.
 
-def article_list(request):
+def quote_list(request):
     if request.method == 'GET':
         articles = Quote.objects.all()
         serializers = ArticleSerializers(articles, many=True)
